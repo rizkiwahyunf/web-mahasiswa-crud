@@ -1,0 +1,28 @@
+1.	Percobaan keempat		8
+a.	Listing program		8
+b.	Output		8
+2.	Percobaan kelima		9
+a.	Listing program		9
+b.	Output		9
+3.	Percobaan keenam		10
+a.	Listing program		10
+b.	Output		10
+4.	Percobaan ketujuh		11
+a.	Listing program		11
+b.	Output		11
+
+int prima(int angka){
+    int hasil, status;
+    for(int pembagi = 1; pembagi <= angka; pembagi++){
+        if(angka%pembagi == 0){
+            status++;
+        }
+    }
+    if(status == 2){
+        return hasil = 1;
+    }else{
+        return hasil = 0;
+    }
+    return hasil;
+}
+

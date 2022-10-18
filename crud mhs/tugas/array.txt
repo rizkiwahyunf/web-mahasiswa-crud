@@ -1,0 +1,2 @@
+array sbg =menginginkan hasil operasi dalam fungsi yang terbaca di tempat yang dipanggil, hasilnya banyak dan tipenya sama
+==>menjadikan array di parameter aktual tanpa kurung siku dan di prameter formal

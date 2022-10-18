@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+*{
+    font-family: 'Poppins', 'Roboto';
+    margin: 0px;
+    padding: 0px; 
+    font-size: 1rem;
+    transition: all .2s linear;
+}
+/*---------NAVBAR START---------*/
+#navbars{
+    z-index: 10;
+    position: sticky;
+}
+#navbars a{
+    color: #fff;
+    font-weight: 550;
+    margin-left: 2%;
+}
+.navbar{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+}
+/*---------NAVBAR END---------*/
+/*---------SIDEBAR START---------*/
+#sidebar{
+    position: fixed;
+    margin-top: 30px;
+    padding-top: 30px;
+    background: #252440;
+    width: auto;
+    height: 100%;
+    color: #fff;
+}
+#sidebar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #302b63;
+}
+#sidebar .profile a{
+    padding: 5%;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.accordion i{
+    margin-left: 10px;
+}
+.accordion button{
+    color: #fff;
+    text-decoration: none;
+}
+.accordion button:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.collapse a{
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.mat{
+    padding-top: 4%;
+}
+.accordion .mat a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.accordion .mat a:hover{
+    color: #fff;
+    text-decoration: none;
+
+}
+.log{
+    padding-top: 4%;
+}
+.log a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+/*---------SIDEBAR END---------*/
+
+/*---------DOSEN START---------*/
+#mhs .container{
+    margin-left: 15%;
+    margin-top: 2%;
+}
+thead{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);  
+    color: #fff;
+}
+thead th{
+    font-weight: 400;
+}
+.card button{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);  
+    border-radius: 25px;
+    border: none;
+}
+/*---------DOSEN END---------*/
+/*---------TAMBAH MHS START---------*/
+#tambahmhs .container{
+    margin-left: 15%;
+    padding-top: 2%;
+}
+.card .card-header{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);  
+    color: #fff;
+}
+.input-group .form-control{
+    border: none;
+    padding-bottom: 5px;
+}
+.form-group button{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);  
+    border-radius: 25px;
+    border: none;
+    width: 100%;
+    margin-top: 2%;
+}
+/*---------TAMBAH DOSEN END---------*/
+body{
+    background: #F8F9FA;
+}
+#home img{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);  
+    margin-left: 3%; 
+    width: 100%;
+}
+#omah img{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);  
+    margin-left: 3%; 
+    margin-top: 18%;
+    width: 100%;
+}

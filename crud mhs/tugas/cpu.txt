@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() 
+{
+  int cepeu, hacpu=1, ram, haram=1, motherboard, hamb=1, total=0;
+
+  printf("masukkan jumlah CPU yang ingin dibeli: ");
+  scanf("%d", &cepeu);
+  printf("masukkan jumlah RAM yang ingin dibeli: ");
+  scanf("%d", &ram);
+  printf("masukkan jumlah Motherboard yang ingin dibeli: ");
+  scanf("%d", &motherboard);
+
+  hacpu=cepeu*700000;
+  haram=ram*380000;
+  hamb=motherboard*800000;
+  total=hamb+hacpu+haram;
+
+  if(total>1500000)
+    total=total-(total*0.1);
+  else
+  printf("mohon maaf anda tidak mendapatkan diskon");
+  
+  printf("maka harga yang dibayar yaitu %d", total);
+}
+
+

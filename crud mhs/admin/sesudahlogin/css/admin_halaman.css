@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+*{
+    font-family: 'Poppins', 'Roboto';
+    margin: 0px;
+    padding: 0px; 
+    font-size: 1rem;
+    transition: all .2s linear;
+}
+/*---------NAVBAR START---------*/
+#navbars{
+    z-index: 10;
+    position: sticky;
+}
+#navbars a{
+    color: #fff;
+    font-weight: 550;
+    margin-left: 2%;
+}
+.navbar{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+}
+/*---------NAVBAR END---------*/
+/*---------SIDEBAR START---------*/
+#sidebar{
+    position: fixed;
+    margin-top: 30px;
+    padding-top: 30px;
+    background: #252440;
+    width: auto;
+    height: 100%;
+    color: #fff;
+}
+#sidebar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #302b63;
+}
+#sidebar .profile a{
+    padding: 5%;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.accordion i{
+    margin-left: 10px;
+}
+.accordion button{
+    color: #fff;
+    text-decoration: none;
+}
+.accordion button:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.collapse a{
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.log{
+    padding-top: 4%;
+}
+.log a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+/*---------SIDEBAR END---------*/
+/*---------PROFILE START---------*/
+#profil{
+    padding-top: 2%;
+}
+.card{
+    width: 850px;
+    position: relative;
+    margin-left: 25%;
+    border-radius: 25px;
+}
+.card-pertama{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+    border-radius: 25px;
+    color: #fff;
+    padding-bottom: 2px;
+}
+.card img{
+    width: 250px;
+    border-radius: 25px;
+}
+.card-body ul li{
+    padding: 10px;
+}
+.card-body ul button{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+    border-radius: 25px;
+    border: none;
+}
+/*---------PROFILE END---------*/
+#home img{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);  
+    margin-left: 5%;  
+}
+body{
+    background: #F8F9FA;
+}

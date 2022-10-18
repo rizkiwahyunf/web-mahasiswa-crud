@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+*{
+    font-family: 'Poppins', 'Roboto';
+    margin: 0px;
+    padding: 0px; 
+    font-size: 1.2rem;
+    transition: all .2s linear;
+}
+/*---------NAVBAR START---------*/
+#navbars{
+    z-index: 10;
+    position: sticky;
+}
+.navbar-brand{
+    color: white; 
+}
+.navbar{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.collapse ul li a{
+    color: #fff !important;
+    font-weight: 450;
+}
+.collapse ul li .dropdown-item{
+    color: #0f0c29 !important;
+}
+.fa-bars{
+    color: #fff !important;
+    font-size: 35px;
+}
+/*---------NAVBAR END---------*/
+/*---------HOME START---------*/
+#Home{
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    padding-top: 10%;
+    min-height: 100vh;
+    width: 100vw;
+}
+.gambarhome{
+    width: 350px;
+}
+.btn{
+    background: rgba(255, 255, 255, 0);
+    border-color: #eaafc8;
+    border-width: 5px;
+    border-radius: 25px;
+    font-weight: 400;
+}
+.btn:hover{
+    background: #ffffff;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-radius: 25px;
+    font-weight: 500;
+    color: #0f0c29;
+}
+.gambar1{
+    width: 100%;
+    padding-top: 9%;
+}
+/*---------HOME END---------*/
+/*---------KEUNGGULAN START---------*/
+#keunggulan{
+    background: #F8F9FA;
+    padding-top: 10%;
+    min-height: 100vh;
+    width: 100vw;
+}
+.pens{
+    width: 550px;
+    border-radius: 25px;
+}
+.kpertama{
+    color: #0f0c29;
+    font-weight: 400;
+    font-size: 1rem;
+}
+#keunggulan button{
+    color: #0f0c29;
+    border-color: #302b63;
+}
+#keunggulan button:hover{
+    background: #302b63;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-radius: 25px;
+    font-weight: 300;
+    color: #fff;
+}
+.gambar2{
+    width: 100%;
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+}
+/*---------KEUNGGULAN END---------*/
+/*---------FOOTER START---------*/
+#akhir{
+    min-height: auto;
+    width: 100vw;
+    padding-top: 2%;
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    padding-bottom: 2%;
+}
+.footer-content{
+    list-style-type: none;
+    display: inline-block;
+}
+.apertama{
+    font-size: 0.7rem;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.sosmed-icon img{
+    width: 50px;
+    transition: 0.5s;
+    padding-top: 7%;
+}
+.sosmed-icon a:hover img{
+    transform: translateY(-20px);
+}
+.lainya p{
+    font-size: 0.7rem;
+}
+.lainya .fas{
+    margin-right: 8px;
+}
+/*---------FOOTER END---------*/
